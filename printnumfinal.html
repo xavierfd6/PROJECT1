@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>print</title>
+    <link rel="stylesheet" href="printnumfinal.css">
+</head>
+<body>
+    <center>
+        <div class="overall">
+            <nav>Print Site</nav>
+            <div class="inside">
+                <div class="content">
+                    <div class="explanation">
+                        <p>This site is for printing numbers in various types</p>
+                    </div>
+                    <div class="btn">
+                        <p>This button will print numbers from 0 to 30, if you want to remove the numbers just click the reset button</p>
+                        <button onclick="printNumbers()">Print Numbers</button>
+                        <div class="printbox" id="printNumbersBox"></div>
+                        <button onclick="ResetPrints1()">Reset Prints</button>
+                    </div>
+                    <div class="btn">
+                        <p>This button will print even numbers from 0 to 40, if you want to remove the numbers just click the reset button</p>
+                        <button onclick="printEvenNumbers()">Print Numbers</button>
+                        <div class="printbox" id="printEvenNumbersBox"></div>
+                        <button onclick="ResetPrints2()">Reset Prints</button>
+                    </div>
+                    <div class="btn">
+                        <p>This button the numbers from 40 to 10 in Descending order, but only if the number are multiples by 3, if you want to remove the numbers just click the reset button</p>
+                        <button onclick="printMultiNumbers()">Print Numbers</button>
+                        <div class="printbox" id="printMultiNumbersBox"></div>
+                        <button onclick="ResetPrints3()">Reset Prints</button>
+                    </div>
+                    <script src="printnumfinal.js"></script>
+                </div>
+                <a href="mainwebfinal.html"><button>Go Back</button></a>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
